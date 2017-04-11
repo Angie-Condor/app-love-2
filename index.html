@@ -14,8 +14,8 @@
   <body>
     <header>
       <div class="menu container">
-        <a href="#" class="text-uppercase link">Services</a>
-        <a href="#" class="text-uppercase link">Work</a>
+        <a href="#services" class="text-uppercase link">Services</a>
+        <a href="#work" class="text-uppercase link">Work</a>
         <a href="#" class="text-uppercase link">The team</a>
         <img src="assets/img/logo-r.png" class="logo" alt="logo" width="70">
       </div>
@@ -66,47 +66,56 @@
           eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure.</h4>
-          <div class="content-box-work">
-            <img src="assets/img/hero.png" alt="" width="940">
-            <div class="box-work">
-              <img src="assets/img/img-1.jpg" alt="" width="300">
-              <h5 class="mb-0">TAYMAN GROUP</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-2.jpg" alt="" width="300">
-              <h5 class="mb-0">KERALA</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-3.jpg" alt="" width="300">
-              <h5 class="mb-0">THE BRASS COQ</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-4.jpg" alt="" width="300">
-              <h5 class="mb-0">SUNGENRE</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-5.jpg" alt="" width="300">
-              <h5 class="mb-0">MITRAGYNA SPECIOSA</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-6.jpg" alt="" width="300">
-              <h5 class="mb-0">FOAM KING</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-7.jpg" alt="" width="300">
-              <h5 class="mb-0">VOLITION</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-10.jpg" alt="" width="300">
-              <h5 class="mb-0">OWLS & APPLES</h5>
-            </div>
-            <div class="box-work">
-              <img src="assets/img/img-11.jpg" alt="" width="300">
-              <h5 class="mb-0">SHERWOOD</h5>
-            </div>
+        <div class="content-box-work">
+          <img src="assets/img/hero.png" alt="" width="940">
+          <div class="box-work">
+            <a href="#modal-popup">
+            <img class="img" id="img1" src="assets/img/img-1.jpg" alt="" width="300">
+            </a>
+            <h5 class="mb-0">TAYMAN GROUP</h5>
           </div>
+          <div id="space-modal"></div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-2.jpg" alt="" width="300">
+            <h5 class="mb-0">KERALA</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-3.jpg" alt="" width="300">
+            <h5 class="mb-0">THE BRASS COQ</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-4.jpg" alt="" width="300">
+            <h5 class="mb-0">SUNGENRE</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-5.jpg" alt="" width="300">
+            <h5 class="mb-0">MITRAGYNA SPECIOSA</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-6.jpg" alt="" width="300">
+            <h5 class="mb-0">FOAM KING</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-7.jpg" alt="" width="300">
+            <h5 class="mb-0">VOLITION</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-10.jpg" alt="" width="300">
+            <h5 class="mb-0">OWLS & APPLES</h5>
+          </div>
+          <div class="box-work">
+            <img class="img" src="assets/img/img-11.jpg" alt="" width="300">
+            <h5 class="mb-0">SHERWOOD</h5>
+          </div>
+        </div>
       </div>
     </section>
+    <div class="popup-contenedor">
+      <div class="modal" id="modal-popup">
+        <img src="" alt="" class="img-modal zoom" id="modal-img">
+        <a href="#" id="close" class="close">X</a>
+      </div>
+    </div>
     <footer>
       <p>&copy Copyright</p>
     </footer>
